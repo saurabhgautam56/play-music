@@ -41,7 +41,7 @@ project/
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/saurabhgautam56/play-music.git
-cd music-player
+cd play-music
 ```
 # Add your songs
 - Place .mp3 files inside assets/audio/
