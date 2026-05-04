@@ -147,6 +147,43 @@ body {
 }
 #volume { flex: 1; }
 
+/* STICKY BOTTOM MINI-PLAYER */
+.mini-player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.mini-player button {
+  flex: 0 0 auto;
+  padding: 12px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  cursor: pointer;
+  transition: 0.25s;
+  min-width: 44px;
+}
+
+.mini-player button:hover {
+  transform: scale(1.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* Ensure playlist scrolls above mini-player */
+.playlist {
+  padding-bottom: 70px; 
+}
+
 /* ================= PLAYLIST ================= */
 .playlist {
   width: 300px;
