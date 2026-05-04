@@ -40,7 +40,7 @@ project/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/saurabhgautam56/music-player.git
+git clone https://github.com/saurabhgautam56/play-music.git
 cd music-player
 ```
 # Add your songs
@@ -66,7 +66,7 @@ Open index.html in your browser, or use VS Code + Live Server for auto-refresh.
 - Push your project to a GitHub repository.
 - Go to Settings → Pages.
 - Select branch main and folder /root.
-- Your site will be live at: https://saurabhgautam56.github.io/music-player
+- Your site will be live at: https://saurabhgautam56.github.io/play-music
 
 ---
 
