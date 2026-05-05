@@ -247,12 +247,30 @@ body {
   border-radius: 10px;
 }
 
-/* MOBILE */
+/* 📱 Mobile layout: player above, playlist below */
 @media (max-width: 768px) {
-  .app { flex-direction: column; align-items: center; }
-  .music-player, .playlist { 
-    width: 100%; 
-    max-width: 350px;
-    height: 530px; 
+  .app {
+    flex-direction: column;   
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .music-player {
+    position: relative;       
+    width: 100%;
+    max-width: 400px;
+    height: 580px;
+    margin-bottom: 20px;      
+    border-radius: 15px;
+  }
+
+  .playlist {
+    width: 100%;
+    max-width: 400px;
+    height: 450px;
+    margin-bottom: 20px;
+    max-height: calc(100vh - 300px); 
+    overflow-y: auto;
   }
 }
