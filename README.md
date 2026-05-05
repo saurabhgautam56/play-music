@@ -5,6 +5,12 @@ It supports playlists, search, shuffle/repeat, keyboard shortcuts, auto-scroll t
 
 ---
 
+🚀 Live Demo
+
+👉 https://saurabhgautam56.github.io/play-music
+
+---
+
 ## ✨ Features
 - 🎵 Play, pause, next, previous track controls
 - 🔀 Shuffle and 🔁 repeat modes
