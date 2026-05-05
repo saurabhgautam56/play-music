@@ -36,7 +36,7 @@ body {
 /* ================= PLAYER ================= */
 .music-player {
   width: 320px;
-  height: 500px;
+  height: 550px;
   padding: 20px;
   border-radius: 20px;
   backdrop-filter: blur(20px);
@@ -260,7 +260,7 @@ body {
     position: relative;       
     width: 100%;
     max-width: 400px;
-    height: 550px;
+    height: 580px;
     margin-bottom: 20px;      
     border-radius: 15px;
   }
