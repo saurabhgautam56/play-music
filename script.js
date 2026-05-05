@@ -241,12 +241,15 @@ function loadSong(index) {
   updateActive();
 }
 
-// Highlight + auto-scroll active song
+// Highlight active + auto‑scroll (desktop only)
 function updateActive() {
   [...songList.children].forEach((li, i) => {
     li.classList.toggle("active", i === current);
     if (i === current) {
-      li.scrollIntoView({ behavior: "smooth", block: "center" });
+      // Only auto‑scroll if desktop screen
+      if (window.innerWidth > 768) {
+        li.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
     }
   });
 }
